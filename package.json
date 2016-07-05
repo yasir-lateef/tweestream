@@ -1,0 +1,19 @@
+{
+  "name": "yetistreamer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Yasir Lateef",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.4",
+    "twit": "^2.2.4"
+  },
+  "devDependencies": {
+    "socket.io": "^1.4.6"
+  }
+}

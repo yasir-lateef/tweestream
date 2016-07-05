@@ -1,0 +1,12 @@
+<div class="container">
+	<!-- {{allTweets}} -->	
+	<div class="list-group">
+	  <a href="#" class="list-group-item list-group-item-info" ng-repeat="tweet in allTweets | filter:query | limitTo : quantity" >
+	    <h4 class="list-group-item-heading">{{tweet.text}}</h4>
+	    <p class="list-group-item-text">{{tweet.user.name}} (@{{tweet.user.screen_name}})</p>
+	  </a>
+	</div>
+
+	
+
+</div>
